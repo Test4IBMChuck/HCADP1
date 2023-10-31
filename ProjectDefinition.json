@@ -1,0 +1,32 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "$id": "http://www.ibm.com/dba/solutions/solution1/HCADP1/ProjectDefinition.json",
+  "title": "HCADP1",
+  "ba_description": "",
+  "ba_type": "content",
+  "ba_repoPrimaryKey": "HCADP1",
+  "ba_expectedDocTypes": 0,
+  "ba_id": "f93bb4f0-ff38-4587-8b9b-c455519dea0f",
+  "ba_dataDefinitions": [],
+  "ba_contentDefinitions": [
+    {
+      "$ref": "CD_UtilityBill.json",
+      "title": "Utility Bill",
+      "caDocTypeId": "a2827178-33da-403b-aaa8-b0bb3b820959"
+    },
+    {
+      "$ref": "CD_BillOfLading.json",
+      "title": "Bill of Lading",
+      "caDocTypeId": "63842cbd-c858-4a5d-955c-7825edb7da25"
+    },
+    {
+      "$ref": "CD_Invoice.json",
+      "title": "Invoice",
+      "caDocTypeId": "b65d6596-71e0-4def-92e4-fc5e04ff4e66"
+    }
+  ],
+  "ba_caDefinitions": "",
+  "ba_caProjectDescriptor": "a0990949-368f-4e85-8011-4decf369e84a",
+  "ba_snapshotName": "",
+  "ba_versionId": ""
+}
