@@ -23,10 +23,19 @@
       "$ref": "CD_Invoice.json",
       "title": "Invoice",
       "caDocTypeId": "b65d6596-71e0-4def-92e4-fc5e04ff4e66"
+    },
+    {
+      "$ref": "CD_Emails.json",
+      "title": "Emails",
+      "caDocTypeId": "1e69cb95-b264-46bc-b9da-ba583a9941e6"
     }
   ],
-  "ba_caDefinitions": "",
+  "ba_caDefinitions": "caDefinitions.json",
   "ba_caProjectDescriptor": "a0990949-368f-4e85-8011-4decf369e84a",
-  "ba_snapshotName": "",
-  "ba_versionId": ""
+  "ba_snapshotName": "v1-2023-11-09-1610",
+  "ba_versionId": "28e5bdbc-296c-4102-94db-4a26e2293935",
+  "ba_caMLModel": "MLmodel.zip",
+  "ba_versionNotes": "1st version with Emails via DMitry",
+  "ba_caClassificationModelTrainingId": "2335ba44-1eec-4edf-a06e-84fdb80d6ff9",
+  "ba_caDataExtractionModelTrainingId": "1ba27070-6242-4ce5-9ba6-3c63640b9277"
 }

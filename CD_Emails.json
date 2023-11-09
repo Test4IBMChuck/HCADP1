@@ -1,0 +1,79 @@
+{
+    "$schema": "http://json-schema.org/schema#",
+    "$id": "http://www.ibm.com/dba/projects/HCADP1/CD_Emails.json",
+    "title": "HCADP1 Document Type Definitions",
+    "lastUpdatDate": "",
+    "lastUpdate": "",
+    "comment": "This is a Doc Type Definition showing some different property types",
+    "baForDeployment": true,
+    "definitions": {
+        "Emails": {
+            "$id": "#Emails",
+            "title": "Emails",
+            "allOf": [
+                {
+                    "$ref": "http://www.ibm.com/dba/schemas/#systemDocument"
+                },
+                {
+                    "type": "object",
+                    "description": "",
+                    "baclass": {
+                        "caDocTypeId": "1e69cb95-b264-46bc-b9da-ba583a9941e6",
+                        "defaultRetentionPeriod": "Indefinite",
+                        "retentionPeriodUnits": ""
+                    },
+                    "properties": {
+                        "From": {
+                            "allOf": [
+                                {
+                                    "$ref": "unmapped"
+                                },
+                                {
+                                    "caKeyClassName": "From",
+                                    "caKeyClassId": "9862182f-dad7-453c-945e-1e6fad37d085",
+                                    "caValueType": "text"
+                                }
+                            ]
+                        },
+                        "To": {
+                            "allOf": [
+                                {
+                                    "$ref": "unmapped"
+                                },
+                                {
+                                    "caKeyClassName": "To",
+                                    "caKeyClassId": "c94a5f13-c94f-4669-9feb-1e3fc73fab0e",
+                                    "caValueType": "text"
+                                }
+                            ]
+                        },
+                        "Subject": {
+                            "allOf": [
+                                {
+                                    "$ref": "unmapped"
+                                },
+                                {
+                                    "caKeyClassName": "Subject",
+                                    "caKeyClassId": "c8a57561-de07-40a3-bb81-5518c4dbe29c",
+                                    "caValueType": "text"
+                                }
+                            ]
+                        },
+                        "Body": {
+                            "allOf": [
+                                {
+                                    "$ref": "unmapped"
+                                },
+                                {
+                                    "caKeyClassName": "Body",
+                                    "caKeyClassId": "724720b2-f793-4ff1-9ce7-cb6b615ec21c",
+                                    "caValueType": "text"
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}
